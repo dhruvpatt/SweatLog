@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "workout-tracker",
+    "slug": "workout-tracker",
+    "android": {
+      "package": "com.anonymous.workouttracker"
+    },
+    "ios": {
+      "bundleIdentifier": "com.anonymous.workouttracker"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
